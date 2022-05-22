@@ -1,0 +1,71 @@
+body {
+background-color:black;
+}
+section div h1 {                                  
+background-color:white;
+color:red;
+text-align:center;
+font-weight:bold;
+text-decoration:underline;
+padding:10px;                    
+}
+h2 {
+color:red;
+padding:10px;
+}
+.saman {
+color:blue;
+list-style-position:inside;        
+font-size:20px;
+}
+.process{
+color:yellow;
+font-size:25px;
+}
+.links {
+font-size:30px;
+font-family:cursive;
+}
+#finish {
+font-size:20px;
+font-family:cursive;
+color:purple;
+}
+.process ol{
+list-style-type:upper-roman;
+}
+.saman ul {
+list-style-type:square;
+}
+.links ul{
+list-style-image:url('capture.jpg');
+}
+p span:first-child{
+color:red;
+font-style:italic;
+}
+p span:last-child{
+text-decoration:underline;
+}
+@media only screen and (min-width: 500px) {
+  body {
+    background-color: lightblue;
+  }
+}
+@media only screen and (min-width:800px) {
+h2{
+  color: black;
+}
+  
+}
+@media only screen and (min-width: 800px) {
+  body {
+    background-color:green;
+  }
+}
+@media only screen and (min-width: 900px) {
+  body {
+    background-color:violet;
+  }
+}   
+
